@@ -10,7 +10,7 @@ from helper import load_data
 from ranking import FairExpose
 from metrics import *
 
-# Load Data with multiple non-binary protected groups
+# Load Data with binary protected groups (multiple non-binary are supported)
 data, relevance_col, group_col = load_data(dataset_name="German", protected="Gender")
 
 # Create top-k ranking problem with "females" as protected group
