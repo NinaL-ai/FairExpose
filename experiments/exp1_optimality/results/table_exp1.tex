@@ -1,0 +1,30 @@
+\begin{table*}[t]
+    \caption{Experimental results for out proposed methods on generated datasets.}
+    \label{tab:exp1}
+    \centering
+    \begin{tabular}{l r l l l r r r r r r}
+    \toprule
+    Prot. Attr. & \#Attr. & $|\mathcal{G}|$ & groups & Method & ED & PD & OD & ODg & RD & RDg \\
+    \midrule
+    \multirow{4}{*}{binary} & \multirow{4}{*}{1} & \multirow{4}{*}{2} & \multirow{4}{*}{a} & colorblind & 5.872 & 0.24 & 0.0 & \multirow{4}{*}{0.0} & 0.0 & \multirow{4}{*}{0.0} \\
+     &  &  &  & FairExpose-Pro & 0.0 & 0.0 & 0.357 &  & 0.086 &  \\
+     &  &  &  & FairExpose-Ord & 0.035 & 0.14 & 0.0 &  & 0.16 &  \\
+     &  &  &  & FairExpose-Ord Greedy & 0.035 & 0.14 & 0.0 &  & 0.16 &  \\
+    \hline
+    \multirow{4}{*}{multi binary} & \multirow{4}{*}{2} & \multirow{4}{*}{4} & \multirow{4}{*}{b} & colorblind & 3.231 & 0.24 & 0.0 & \multirow{4}{*}{0.0} & 0.0 & \multirow{4}{*}{0.0} \\
+     &  &  &  & FairExpose-Pro & 0.0 & 0.0 & 0.306 &  & 0.078 &  \\
+     &  &  &  & FairExpose-Ord & 0.127 & 0.2 & 0.0 &  & 0.16 &  \\
+     &  &  &  & FairExpose-Ord Greedy & 0.127 & 0.2 & 0.0 &  & 0.16 &  \\
+    \hline
+    \multirow{4}{*}{non-binary} & \multirow{4}{*}{1} & \multirow{4}{*}{4} & \multirow{4}{*}{c} & colorblind & 3.391 & 0.28 & 0.0 & \multirow{4}{*}{0.0} & 0.0 & \multirow{4}{*}{0.0} \\
+     &  &  &  & FairExpose-Pro & 0.0 & 0.0 & 0.529 &  & 0.108 &  \\
+     &  &  &  & FairExpose-Ord & 0.153 & 0.2 & 0.0 &  & 0.162 &  \\
+     &  &  &  & FairExpose-Ord Greedy & 0.162 & 0.24 & 0.0 &  & 0.192 &  \\
+    \hline
+    \multirow{4}{*}{multi non-binary} & \multirow{4}{*}{2} & \multirow{4}{*}{9} & \multirow{4}{*}{d} & colorblind & 4.815 & 0.505 & 0.0 & \multirow{4}{*}{0.0} & 0.0 & \multirow{4}{*}{0.0} \\
+     &  &  &  & FairExpose-Pro & 0.0 & 0.01 & 0.646 &  & 0.333 &  \\
+     &  &  &  & FairExpose-Ord & 0.156 & 0.257 & 0.0 &  & 0.393 &  \\
+     &  &  &  & FairExpose-Ord Greedy & 0.233 & 0.28 & 0.0 &  & 0.394 &  \\
+    \bottomrule
+    \end{tabular}
+\end{table*}

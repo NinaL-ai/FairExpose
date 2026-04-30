@@ -1,0 +1,11 @@
+,Metric,Value
+0,RD,0
+1,RDg,0
+2,OD,0.0
+3,ODg,0.0
+4,PD,0.24
+5,ED,5.871861968500011
+6,NDCG,1.0
+7,kendall_tau,1.0
+8,group_counts,"[0.62, 0.38]"
+9,runtime,0.0005576610565185547
